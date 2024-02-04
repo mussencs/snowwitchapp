@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className='ss:section-div-row'>
             <div className='flex'>
-                <a href="/">
+                <a href="/snowwitchapp/">
                     <img src={logo} alt="snowwitch" className="ss:flex hidden w-[100px]"/>
                     <h1 className="ss:hidden flex header-font">SnowWitch</h1>
                 </a>

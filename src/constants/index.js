@@ -175,27 +175,27 @@ export const PackingItems = [
 
 export const NavLinks = [
   {
-    id: "snowwitchapp/home",
+    id: "snowwitchapp/#/home",
     title: "Home",
   },
   {
-    id: "snowwitchapp/about",
+    id: "snowwitchapp/#/about",
     title: "About",
   },
   {
-    id: "snowwitchapp/location",
+    id: "snowwitchapp/#/location",
     title: "Location",
   },
   {
-    id: "snowwitchapp/tierlist",
+    id: "snowwitchapp/#/tierlist",
     title: "Tier List",
   },
   {
-    id: "snowwitchapp/packing",
+    id: "snowwitchapp/#/packing",
     title: "Packing List",
   },
   {
-    id: "snowwitchapp/blog",
+    id: "snowwitchapp/#/blog",
     title: "Blog",
   }
 ];

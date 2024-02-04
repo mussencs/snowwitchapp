@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom"
 import './App.css'
 
 import {get_location_ids} from './components/scripts'
@@ -30,32 +30,32 @@ function App() {
       </div>
       <div className='main-div sticky top-0'>
         <Top/>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path='snowwitchapp/' element={< Home/>}></Route>
-            <Route path='snowwitchapp/home' element={<Home/>}></Route>
-            <Route path='snowwitchapp/about' element={<About/>}></Route>
-            <Route path='snowwitchapp/privacy' element={<Privacy/>}></Route>
-            <Route path='snowwitchapp/location' element={<Location/>}></Route>
+            <Route path='/' element={< Home/>}></Route>
+            <Route path='/home' element={<Home/>}></Route>
+            <Route path='/about' element={<About/>}></Route>
+            <Route path='/privacy' element={<Privacy/>}></Route>
+            <Route path='/location' element={<Location/>}></Route>
             {main_locations_name_id.map((location_id) => (
               <Route
-                path={`snowwitchapp/location/${location_id}`} element={<LocationSelected location_id={location_id}/>}
+                path={`location/${location_id}`} element={<LocationSelected location_id={location_id}/>}
                 key={location_id}
               >
               </Route>
             ))}
-            <Route path='snowwitchapp/tierlist' element={<TierList/>}></Route>
-            <Route path='snowwitchapp/packing' element={<Packing/>}></Route>
-            <Route path='snowwitchapp/blog' element={<BlogCatalog/>}></Route>
+            <Route path='/tierlist' element={<TierList/>}></Route>
+            <Route path='/packing' element={<Packing/>}></Route>
+            <Route path='/blog' element={<BlogCatalog/>}></Route>
             {ArticleReference.map((article, index) => (
               <Route
-                path={`snowwitchapp/blog/${article.id}`} element={<Article article={article}/>}
+                path={`/blog/${article.id}`} element={<Article article={article}/>}
                 key={article.id}
               >
               </Route>
             ))}
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
         <Footer/>
       </div>
     </div>

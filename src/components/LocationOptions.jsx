@@ -12,7 +12,7 @@ const LocationOptions = () => {
 
     const handle_change = (e) => {
         let location_id = e.target.value
-        navigate(`/snowwitchapp/location/${location_id}`)
+        navigate(`/location/${location_id}`)
         window.location.reload();
     };
 

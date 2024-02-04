@@ -1,3 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Germania+One:wght@400;500;600;700;800;900&display=swap");
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply flex flex-col items-center justify-center text-black bg-blue-200 px-5;
+  }
+}
+
+@layer components {
+  .main-div {
+    @apply flex w-full flex-col items-center justify-center bg-stone-100 max-w-[1200px];
+  }
+  .section-div-col {
+    @apply flex w-full flex-col items-center justify-center
+  }
+  .section-div-row {
+    @apply flex w-full flex-row items-center justify-center
+  }
+  .section-div-col-start {
+    @apply flex w-full flex-col items-start justify-start
+  }
+  .section-div-row-start {
+    @apply flex w-full flex-row items-start justify-start
+  }
+  .section-div-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full items-center justify-center items-stretch
+  }
+  .tile-spacing-y {
+    @apply space-y-2 p-1
+  }
+  .tile-spacing-x {
+    @apply space-x-2 p-1
+  }
+  .tile-div-row {
+    @apply flex w-full flex-row p-1 bg-slate-200 bg-opacity-80 rounded-2xl
+  }
+  .tile-div-col {
+    @apply flex w-full flex-col p-1 bg-slate-200 bg-opacity-80 rounded-2xl
+  }
+  .tile-div-row-center {
+    @apply flex w-full h-full flex-row p-1 bg-slate-200 bg-opacity-80 rounded-2xl items-center justify-center
+  }
+  .tile-div-col-center {
+    @apply flex w-full h-full flex-col p-1 bg-slate-200 bg-opacity-80 rounded-2xl items-center justify-center
+  }
+  .header-font {
+    @apply font-germaniaOne font-normal text-[48px] text-black
+  }
+  .section-font {
+    @apply font-bold text-[36px] text-black
+  }
+  .tile-font {
+    @apply font-germaniaOne font-normal text-[24px] text-pink-500
+  }
+  .base-font {
+    @apply font-normal text-[16px] text-black
+  }
+  .drop-down-font {
+    @apply font-germaniaOne font-normal text-[24px] text-black
+  }
+  .nav-element {
+    @apply px-4 md:px-8 lg:px-12 tile-font
+  }
+  .react-icon {
+    @apply  text-pink-500
+  }
+  .darken-bg {
+    @apply bg-slate-300 bg-opacity-50 shadow-sm shadow-pink-500/50
+  }
+  .linked-item {
+    @apply underline decoration-green-500 hover:shadow-md hover:shadow-green-500 hover:rounded-xl hover:py-1 hover:bg-black hover:bg-opacity-5 hover:text-green-500
+  }
+  .drop-down {
+    @apply w-full text-center justify-center items-center p-2 rounded-md bg-pink-500
+  }
+  .table-alt-colors {
+    @apply even:bg-gray-50 odd:bg-white
+  }
+  .table-td {
+    @apply flex justify-center items-center
+  }
+  .check-box {
+    @apply h-12 w-12 m-2 accent-pink-500
+  }
+}

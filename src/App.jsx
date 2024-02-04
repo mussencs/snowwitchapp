@@ -25,9 +25,9 @@ function App() {
 
   return (
     <div className='w-full'>
-      <div className='w-full'>
+      {/* <div className='w-full'>
         <SnowFallEffect/>
-      </div>
+      </div> */}
       <div className='main-div sticky top-0'>
         <Top/>
         <HashRouter>

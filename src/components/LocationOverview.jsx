@@ -7,7 +7,7 @@ const LocationOverview = ({location_id}) => {
     let links = Object.keys(sub_locations_info)
     let sub_link = "#" + "base"
     for (let i = 0; i < links.length; i++) {
-        links[i] = "#" + links[i]
+        links[i] = "/snowwitchapp/#/location/" + location_info.id + "/#" + links[i]
     }
     return (
         <div className='tile-div-col'>

@@ -6,7 +6,7 @@ import { SiStrava } from 'react-icons/si'
 const Footer = () => {
     return (
         <div className='section-div-row nav-element bg-indigo-100 react-icon space-x-2'>
-            <a href="/privacy" className='linked-item'>
+            <a href="/snowwitchapp/privacy" className='linked-item'>
                 Privacy Policy
             </a>
             <a href='https://instagram.com/snowwitch.io?igshid=YmMyMTA2M2Y=' className='linked-item'>

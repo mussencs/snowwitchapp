@@ -9,7 +9,7 @@ const Hero = () => {
         </h2>
         <div className='section-div-grid'>
           <div className='tile-div-col-center darken-bg'>
-            <a href="/location">
+            <a href="/snowwitchapp/#/location">
               <h3 className='tile-font linked-item'>
                 Location Dashboard
               </h3>
@@ -18,7 +18,7 @@ const Hero = () => {
             <p className='w-4/5'>Displays current and predicted weather conditions of a selected location</p>
           </div>
           <div className='tile-div-col-center darken-bg'>
-            <a href="/tierlist">
+            <a href="/snowwitchapp/#/tierlist">
               <h3 className='tile-font linked-item'>
                 Tier List
               </h3>
@@ -28,7 +28,7 @@ const Hero = () => {
 
           </div>
           <div className='tile-div-col-center darken-bg'>
-            <a href="/about">
+            <a href="/snowwitchapp/#/about">
               <h3 className='tile-font linked-item'>
                 Grading Rubric
               </h3>
@@ -37,7 +37,7 @@ const Hero = () => {
             <p className='w-4/5'>Gives details on the SnowWitch score</p>
           </div>
           <div className='tile-div-col-center darken-bg'>
-            <a href="/packing">
+            <a href="/snowwitchapp/#/packing">
               <h3 className='tile-font linked-item'>
                 Packing List
               </h3>

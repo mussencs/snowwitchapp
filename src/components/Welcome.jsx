@@ -34,7 +34,7 @@ const Welcome = () => {
                   key = {location_id}
                   className='tile-div-col-center darken-bg'
               >
-                  <a href={`location/${location_id}`} className='tile-font linked-item'>
+                  <a href={`#/location/${location_id}`} className='tile-font linked-item'>
                     {main_locations_full_name[index]}
                   </a>
               </li>

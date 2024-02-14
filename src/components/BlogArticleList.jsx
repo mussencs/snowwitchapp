@@ -11,7 +11,7 @@ const BlogArticleList = () => {
                   key = {index}
                   className='tile-div-col-center darken-bg'
               >
-                  <a href={`/blog/${article.id}`} className='tile-font linked-item'>
+                  <a href={`/snowwitchapp/#/blog/${article.id}`} className='tile-font linked-item'>
                     {article.name}
                   </a>
                   <img src={`${article.image}`}  width='200'/>

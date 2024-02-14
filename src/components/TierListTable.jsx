@@ -169,7 +169,7 @@ const TierListTable = () => {
                                                 key = {location[0]}
                                                 className='tile-div-col-center darken-bg'
                                             >
-                                                <a href={`location/${location[0]}#base`} className='tile-font linked-item'>
+                                                <a href={`#/location/${location[0]}#base`} className='tile-font linked-item'>
                                                     {location[1]}
                                                 </a>
                                             </li>

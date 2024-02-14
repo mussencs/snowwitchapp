@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { HashRouter, Routes, Route } from "react-router-dom"
+import Snowfall from 'react-snowfall'
+
 import './App.css'
 
 import {get_location_ids} from './components/scripts'
@@ -7,7 +9,6 @@ import {ArticleReference} from './assets/articles/article_index'
 
 import Top from './components/Top';
 import Footer from './components/Footer';
-import SnowFallEffect from './components/SnowFallEffect';
 
 import Home from './pages/Home';
 import Privacy from './pages/Privacy';
@@ -25,9 +26,16 @@ function App() {
 
   return (
     <div className='w-full'>
-      {/* <div className='w-full'>
-        <SnowFallEffect/>
-      </div> */}
+      <div className='w-full'>
+        <Snowfall
+          style={{
+            position: 'fixed',
+            width: '100vw',
+            height: '100vh',
+          }}
+          snowflakeCount={1000}
+        />
+      </div>
       <div className='main-div sticky top-0'>
         <Top/>
         <HashRouter>

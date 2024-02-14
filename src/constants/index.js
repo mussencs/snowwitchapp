@@ -17,157 +17,157 @@ export const PackingItems = [
   {
     id : "snowboard_skis",
     long_name : "Snowboard/Skis",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "poles",
     long_name : "Ski Poles",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "helmet",
     long_name : "Helmet",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "boots",
     long_name : "Snowboard/Ski Boots",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "sweats",
     long_name : "Sweat Pants",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "socks",
     long_name : "Long Socks",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "hand_warmers",
     long_name : "Hand warmers",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "snow_pants",
     long_name : "Snow Pants",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "long_sleeve",
     long_name : "Long Sleeve Shirt",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "hoodie",
     long_name : "Hoodie",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "snow_jacket",
     long_name : "Snow Jacket",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "ski_mask",
     long_name : "Ski Mask",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "googles",
     long_name : "Googles",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "headphones",
     long_name : "Headphones",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "glove_liners",
     long_name : "Glove Liners",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "mittens",
     long_name : "Mittens",
-    link: "",
+    link: "#/packing/",
     category: "essential_gear"
   },
   {
     id : "wallet",
     long_name : "Wallet",
-    link: "",
+    link: "#/packing/",
     category: "personal_items"
   },
   {
     id : "phone",
     long_name : "Phone",
-    link: "",
+    link: "#/packing/",
     category: "personal_items"
   },
   {
     id : "keys",
     long_name : "Keys",
-    link: "",
+    link: "#/packing/",
     category: "personal_items"
   },
   {
     id : "ski_pass",
     long_name : "Ski Pass",
-    link: "",
+    link: "#/packing/",
     category: "personal_items"
   },
   {
     id : "backpack",
     long_name : "Backpack",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "water_bottle",
     long_name : "Water Bottle",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "snacks",
     long_name : "Snacks",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "sunscreen",
     long_name : "Sunscreen",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "multi_tool",
     long_name : "Multi-Tool",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   {
     id : "chap_stick",
     long_name : "Chap Stick",
-    link: "",
+    link: "#/packing/",
     category: "quality_of_life_gear"
   },
   

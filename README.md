@@ -1,4 +1,9 @@
-# React + Vite
+# SnowWitch App
+View and compare predictive snowfall data and popular colorado ski areas
+
+https://mussencs.github.io/snowwitchapp/
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
